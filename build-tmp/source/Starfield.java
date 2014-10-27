@@ -34,6 +34,7 @@ public void draw()
 	bob[i].move();
 	bob[i].show();	
 	}
+	background(0);
 }
 
 interface Particle

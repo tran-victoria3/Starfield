@@ -43,7 +43,7 @@ class NormalParticle implements Particle
 	public void show(){ 
 		fill((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 		ellipse((float)x,(float)y,10,10);
-		System.out.println(x + ", " + y);
+
 	}
 
 	public void move(){ 
